@@ -1,0 +1,49 @@
+body{
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(151, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: rgb(60, 72, 82);
+}
+div{
+    width:30%;
+    border-radius: 5%;
+    padding: 1rem;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.2);
+    background-color: rgb(97, 233, 233);
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+p{
+    margin: 1vh;
+    font-weight: 700;
+    padding: 1em;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: 1px 1px #000 ;
+}
+
+button{
+    justify-self: center;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgb(150, 220, 196);
+}
+
+button:hover{
+    background-color: rgb(2, 237, 179);
+    box-shadow: 0px 0px 10px rgba(5, 96, 97, 0.2);
+}
